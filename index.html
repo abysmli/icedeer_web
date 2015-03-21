@@ -1,0 +1,107 @@
+<html>
+<head>
+	<link href="res/css/main.css" rel="stylesheet">
+	<script src="res/js/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+	<div class="logo_block">
+		<img class="logo" src="res/img/logo.jpg"></img>
+	</div>
+	<div class="monitor_block">
+	</div>
+	<div class="button_1"><img src="res/img/button1.png" style="width:50px"></img></div>
+	<div class="button_2"><img src="res/img/button1.png" style="width:50px"></img></div>
+	<div class="button_3"><img src="res/img/button1.png" style="width:50px"></img></div>
+	<div class="button_4"><img src="res/img/button1.png" style="width:50px"></img></div>
+	<div class="button_5"><img src="res/img/button1.png" style="width:50px"></img></div>
+	<div class="button_6"><img src="res/img/button1.png" style="width:50px"></img></div>
+	<div class="button_7"><img src="res/img/button1.png" style="width:50px"></img></div>
+	<div class="button_8"><img src="res/img/button1.png" style="width:50px"></img></div>
+	<script>
+	$(document).ready(function(){
+		$(".button_1").hover(function(){
+			$(".button_1 img").animate({
+				opacity: 0.5,
+				width: "+=10"
+			},100);
+			$(".monitor_block").append("<div><p style='margin-left:20px'>Botton 1 Showed!</p></div>");
+		},function(){
+			$(".button_1 img").animate({
+				opacity: 1,
+				width: "-=10"
+			},100);
+			$(".monitor_block").html("");
+		});
+
+		$(".button_2").hover(function(){
+			$(".button_2 img").animate({
+				opacity: 0.5,
+				width: "+=10"
+			},100);
+			$(".monitor_block").append("<div><p style='margin-left:20px'>Botton 2 Showed!</p></div>");
+		},function(){
+			$(".button_2 img").animate({
+				opacity: 1,
+				width: "-=10"
+			},100);
+			$(".monitor_block").html("");
+		});
+
+		$(".button_3").hover(function(){
+			$(".button_3 img").animate({
+				opacity: 0.5,
+				width: "+=10"
+			},100);
+			$(".monitor_block").append("<div><p style='margin-left:20px'>Botton 3 Showed!</p></div>");
+		},function(){
+			$(".button_3 img").animate({
+				opacity: 1,
+				width: "-=10"
+			},100);
+			$(".monitor_block").html("");
+		});
+
+		$(".button_4").hover(function(){
+			$(".button_4 img").animate({
+				opacity: 0.5,
+				width: "+=10"
+			},100);
+			$(".monitor_block").append("<div><p style='margin-left:20px'>Botton 4 Showed!</p></div>");
+		},function(){
+			$(".button_4 img").animate({
+				opacity: 1,
+				width: "-=10"
+			},100);
+			$(".monitor_block").html("");
+		});
+
+		$(".button_5").hover(function(){
+			$(".monitor_block").append("<div><p style='margin-left:20px'>Botton 5 Showed!</p></div>");
+		},function(){
+			$(".monitor_block").html("");
+		});
+
+		$(".button_6").hover(function(){
+			$(".monitor_block").append("<div><p style='margin-left:20px'>Botton 6 Showed!</p></div>");
+		},function(){
+			$(".monitor_block").html("");
+		});
+
+		$(".button_7").hover(function(){
+			$(".monitor_block").append("<div><p style='margin-left:20px'>Botton 7 Showed!</p></div>");
+		},function(){
+			$(".monitor_block").html("");
+		});
+
+		$(".button_8").hover(function(){
+			$(".monitor_block").append("<div><p style='margin-left:20px'>Botton 8 Showed!</p></div>");
+		},function(){
+			$(".monitor_block").html("");
+		});
+	});
+	</script>
+
+
+
+</body>
+<html>
